@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Submitted Files</title>
+</head>
+
+<body>
+
+<h2>Submitted Assignments</h2>
+
+<ul>
+
+{% for file in files %}
+
+<li>{{file}}</li>
+
+{% endfor %}
+
+</ul>
+
+<a href="/">Back</a>
+
+</body>
+</html>
